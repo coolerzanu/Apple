@@ -59,44 +59,44 @@ Prepare work station with
 6. Repeat until you have an LED matrix consisting of 8 rows and 9 columns.  
 7. Now Bridge each of the anodes together and bridge each of the cathodes together using solid core wire. 
 
-<img src="images/LED Back Back.png" alt="Back LED Image" width="600">
+<img src="Images/LED Back.png" alt="Back LED Image" width="600">
 
-<img src="images/LED Front.png" alt="Front LED Image" width="600">
+<img src="Images/LED Front.png" alt="Front LED Image" width="600">
 
 8. Now prepare to solder your 150 ohm resistors.
 9. Flip the board to its backside
 10. Solder one 150 ohm resistor to each bottom column's cathode.   
 
-<img src="images/Column Resistor.png" alt="Column Resistor Image" width="600">
+<img src="Images/Column Resistor.png" alt="Column Resistor Image" width="600">
 
 11. Now prepare to solder your Transistors.  
 12. Solder one transistor with the emitter one pin away from the right-most LED row pin.  
 13. Solder the rest of the transistor pins horizontal to the led rows. 
 14. repeat steps 11 and 12 until you have soldered all of the transistors for each row. 
 
-<img src="images/Transistor.png" alt="Transistor Image" width="600">
+<img src="Images/Transistor.png" alt="Transistor Image" width="600">
 
 15. Now prepare to solder the 1k ohm resistors
 16. Solder one 1k ohm resistor to the collector of one of the pnp transistors (middle pin) and connect it to the pin right underneath the collector pin. 
 17. Repeat step 15 until you have soldered all of the 1k ohm resistors for each of the transistors.
 
-<img src="images/Resistor TOP.png" alt="Resistor TOP Image" width="600">
+<img src="Images/Resistor TOP.png" alt="Resistor TOP Image" width="600">
 
 
-<img src="images/Resistor Side.png" alt="Resistor Side Image" width="600">
+<img src="Images/Resistor Side.png" alt="Resistor Side Image" width="600">
 
 18. Prepare to bridge the transistors
 19. Cut and strip solid core wire such that you can bridge all of the Base pins of each of the transistors. 
 20. Solder the solid core wire between each of the transistors such that all 8 are connected (ensure you have extra wire at the bottom to bridge out to the micro controller. 
 
-<img src="images/Bridge Transistor.png" alt="Bridge Transistor Image" width="600">
+<img src="Images/Bridge Transistor.png" alt="Bridge Transistor Image" width="600">
 
 21. Now on a the second perf board, solder the esp 32 at the middle using soldering pins.
 22. Connect wires from the esp32 to the perf board with all the components as according to the wiring diagram.  
 
-<img src="images/Schema Wires.png" alt="Schema Wires Image" width="600">
+<img src="Images/Schema Wires.png" alt="Schema Wires Image" width="600">
 
-<img src="images/ESP32 Wires.png" alt="ESP32 Wires Image" width="600">
+<img src="Images/ESP32 Wires.png" alt="ESP32 Wires Image" width="600">
 
 23. After everything is connected plug in the esp32 and flash the firmware attached in the Github.
 24. Once flashed prepare all components to be combined into the final product (3d printed case + 3d Printed PCB cover + PCB Perf board.  
@@ -106,7 +106,7 @@ Prepare work station with
 
 #### Finished! 
 
-<img src="images/Apple render1.png" alt="ESP32 Final Product" width="600">
+<img src="Images/Apple render1.png" alt="ESP32 Final Product" width="600">
 
 Now you have the finished product! You can upload new animations with a usb-c cable!
 
