@@ -110,6 +110,12 @@ Prepare work station with
 
 Now you have the finished product! You can upload new animations with a usb-c cable!
 
+
+### Firmware!
+
+Firmware is very simple, just download the firmware from the repo. Connect to the esp32 using a usb-c cable. Use the arduino ide to upload the code onto the esp32. Finished!
+
+
 # Credits
 - Made Zine with Canva
 - CAD done with Onshape
